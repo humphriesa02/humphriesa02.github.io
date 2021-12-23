@@ -1,0 +1,130 @@
+
+@font-face{
+  font-family: HeroFont;
+  src: url("HeroFont.ttf");
+}
+@font-face {
+  font-family: hyper;
+  src: url("Monospace.ttf");
+}
+.alt{
+  text-align: center;
+  font-family: monospace;
+}
+.centerpiece{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 5%;
+}
+
+
+.flexContainer{
+  display: flex;
+  flex-direction: row;
+}
+.flexImg{
+  text-align: center;
+  margin: 50px;
+  max-height: 50%;
+  max-width: 50%;
+}
+.flexParagraph{
+  margin: 50px 10% 50px 10%;
+
+  font-size: 25px;
+}
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#262626;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+    
+}
+
+.gamegrid{
+  margin: 5% 30%;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.gamegrid > div{
+  display: block;
+  margin:auto;
+}
+.iframeCSS{
+  margin-left: auto;
+  margin-right: auto;
+  display:block
+}
+.imgSize{
+  max-width: 300px;
+  max-height: 300px;
+}
+.gamegrid > div > p {
+  text-align: center;
+}
+.openTitle{
+  display: inline-block;
+  margin-right: 50%;
+  margin-left: 5%;
+  
+  font-family: HeroFont;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    display: inline-block;
+    overflow: hidden;
+    margin-top: 15px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #0f0f0f;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: HeroFont;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #a1a1a1;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .imgSize{
+      max-width: 150px;
+      max-height: 150px;
+    }
+  }
+
+  #clock{
+    color:black;
+    font-size: 30px;
+    font-family:serif;
+    text-align: center;
+    font-family: HeroFont;
+  }
+  
