@@ -29,11 +29,13 @@
   max-height: 50%;
   max-width: 50%;
   width: 50%;
+  height: 50%;
     
 }
 .flexParagraph{
   margin: 50px 10% 50px 10%;
-
+  width: 50%;
+  height: 50%;    
   font-size: 25px;
 }
 footer{
